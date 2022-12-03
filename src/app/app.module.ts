@@ -1,12 +1,15 @@
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core'
-import { NativeScriptModule } from '@nativescript/angular'
+import { NativeScriptFormsModule, NativeScriptModule } from '@nativescript/angular'
 
 import { AppComponent } from './app.component'
 import { CurrentChallengeComponent } from './challenges/current-challenges/current-challenge.component'
 
 @NgModule({
   bootstrap: [AppComponent],
-  imports: [NativeScriptModule],
+  imports: [
+    NativeScriptModule,
+    NativeScriptFormsModule
+  ],
   declarations: [
     AppComponent,
     CurrentChallengeComponent

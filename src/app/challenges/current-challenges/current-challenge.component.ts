@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./current-challenge.component.css'],
   moduleId: module.id
 })
-export class CurrentChallengeComponent {}
+export class CurrentChallengeComponent {
+
+  description: string = '';
+  currentDescription: string = '';
+
+  onSetChallenge() {
+    this.currentDescription = this.description
+  }
+}
