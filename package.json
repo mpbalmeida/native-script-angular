@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~15.0.0",
+    "@angular/cli": "^15.0.2",
     "@angular/compiler-cli": "~15.0.0",
     "@nativescript/ios": "8.4.0",
     "@nativescript/types": "~8.4.0",

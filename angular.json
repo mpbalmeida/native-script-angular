@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "ns-ng-course": {
+      "root": "",
+      "sourceRoot": "src",
+      "projectType": "application",
+      "prefix": "ns"
+    }
+  },
+  "cli": {
+    "analytics": "f6c00ebe-ddac-4664-a41a-3270d1a5ea10"
+  }
+}
