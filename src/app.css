@@ -15,3 +15,11 @@ Button.-primary {
   margin: 5 0;
   width: 250;
 }
+
+.form-control {
+  border-bottom-color: #7c015d;
+  border-bottom-width: 2;
+  margin: 5 0;
+  font-size: 20;
+  padding: 8 4;
+}
